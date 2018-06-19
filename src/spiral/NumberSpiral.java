@@ -1,5 +1,3 @@
-package spiral;
-
 import java.util.Arrays;
 
 /**
@@ -160,7 +158,7 @@ public class NumberSpiral {
 				}
 				break;
 			default:
-				System.out.println("");
+				System.out.println("Not a valid direction for spiral movement!!!");
 			}
 			spiral[rowIndex][colIndex] = digit;
 		}
